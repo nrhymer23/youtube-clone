@@ -1,15 +1,17 @@
 import React from 'react';
-import "./Sidebar.css";
 import SidebarRow from "./SidebarRow";
+import WhatshotIcon from "@material-ui/icons/Whatshot";
+import SubscriptionIcon from "@material-ui/icons/Subscriptions";
+import HomeIcon from "@material-ui/icons/Home";
+import "./Sidebar.css";
 
 function Sidebar() {
     return (
         <div className="sidebar">
-           <h2> I am the sidebar </h2>
 
-            <SidebarRow title="Home"/>
-            <SidebarRow title="Trending"/>
-            <SidebarRow title="Subscription"/>
+            <SidebarRow Icon={HomeIcon} title="Home"/>
+            <SidebarRow Icon={WhatshotIcon} title="Trending"/>
+            <SidebarRow Icon={SubscriptionIcon} title="Subscription"/>
             <SidebarRow title="Something else"/>
            
         </div>

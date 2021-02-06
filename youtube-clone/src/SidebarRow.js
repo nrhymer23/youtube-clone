@@ -1,12 +1,14 @@
-import React from 'react'
+import React from 'react'; 
+import './SidebarRow.css';
 
-function SidebarRow({ title }) {
+
+function SidebarRow({ Icon, title }) {
     return (
         <div className="sidebarRow">
-            <HomeIcon />
+            <Icon />
             <h2>{title}</h2>
         </div>
-    )
+    );
 }
 
-export default SidebarRow
+export default SidebarRow;
