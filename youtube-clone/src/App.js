@@ -1,6 +1,9 @@
 import React from "react";
 import Header from "./Header";
+import Sidebar from "./Sidebar";
+import RecommendedVideos from "./RecommendedVideos";
 import "./App.css";
+
 
 
 function App() {
@@ -9,34 +12,11 @@ function App() {
     <div className="App">
     {/* <h1> Building Youtube clone</h1> */}
     <Header />
-      <h1>TesT</h1>
-      <h1>TesT</h1>
-      <h1>TesT</h1>
-      <h1>TesT</h1>
-      <h1>TesT</h1>
-      <h1>TesT</h1>
-      <h1>TesT</h1>
-      <h1>TesT</h1>
-      <h1>TesT</h1>
-      <h1>TesT</h1>
-      <h1>TesT</h1>
-      <h1>TesT</h1>
-      <h1>TesT</h1>
-      <h1>TesT</h1>
-      <h1>TesT</h1>
-      <h1>TesT</h1>
-      <h1>TesT</h1>
-      
-      
+    <div className="app__page">
+      <Sidebar />
+      <RecommendedVideos />
     
-      
-
-
-    {/* Header */ }
-    {/* Sidebar */ }
-    {/* RecommendedVideo */ }
-
-
+    </div>
     </div>
   );
 }
