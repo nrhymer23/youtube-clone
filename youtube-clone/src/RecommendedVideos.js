@@ -3,12 +3,13 @@ import "./RecommendedVideos.css";
 
 function RecommendedVideos() {
     return (
-        <div className="RecommendedVideos">
-            <h2>
-            This is where videos go 
-            </h2>
+        <div className="recommendedVideos">
+            <h2>Recommended</h2>
+            <div className="recommended__videos">
+                
+            </div>
         </div>
     )
 }
 
-export default RecommendedVideos
+export default RecommendedVideos;
