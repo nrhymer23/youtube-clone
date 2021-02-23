@@ -20,7 +20,10 @@ function SearchPage() {
         noOfVideos={382}
         description="Blah Blah Blah"
         />
+            <hr />
             
+        <VideoRow />
+
         </div>
     )
 }
