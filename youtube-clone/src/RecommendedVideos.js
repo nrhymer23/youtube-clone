@@ -4,12 +4,10 @@ import "./RecommendedVideos.css";
 
 function RecommendedVideos() {
     return (
-        <div className="recommendedVideos">
-            <h2>Recommended
-            </h2>
-
+        <div className="RecommendedVideos">
+            <h2>Recommended</h2>
             <div className="recommendedVideos__videos">
-                
+
             <VideoCard 
                 title="BOUGHT A 25 PIECE CANON AMAZON BUNDLE, CRAZY LOW PRICE! | Is It Worth Your Money?"
                 views="32 Views "
