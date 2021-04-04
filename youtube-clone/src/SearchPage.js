@@ -1,6 +1,7 @@
 import React from 'react'
 import TuneOutlinedIcon from '@material-ui/icons/TuneOutlined';
 import ChannelRow from "./ChannelRow";
+import VideoRow from "./VideoRow";
 import "./SearchPage.css";
 
 function SearchPage() {
@@ -21,8 +22,16 @@ function SearchPage() {
         description="Blah Blah Blah"
         />
             <hr />
-            
-        <VideoRow />
+
+        <VideoRow
+        views=""
+        subs=""
+        description=""
+        timestamp=""
+        channel=""
+        title=""
+        image=""
+         />
 
         </div>
     )
